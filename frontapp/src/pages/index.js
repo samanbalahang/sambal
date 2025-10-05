@@ -1,0 +1,12 @@
+// Export all page components for easy importing
+export { default as Dashboard } from './dashboard/Dashboard';
+export { default as PostsList } from './posts/PostsList';
+export { default as PostCreate } from './posts/PostCreate';
+export { default as PostEdit } from './posts/PostEdit';
+export { default as PagesList } from './pages/PagesList';
+export { default as PageCreate } from './pages/PageCreate';
+export { default as PageEdit } from './pages/PageEdit';
+export { default as MediaList } from './media/MediaList';
+export { default as MediaUpload } from './media/MediaUpload';
+export { default as MediaEdit } from './media/MediaEdit';
+export { default as Settings } from './settings/Settings';

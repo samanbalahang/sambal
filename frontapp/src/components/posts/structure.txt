@@ -1,0 +1,111 @@
+src/
+├── components/
+│   ├── layout/
+│   │   ├── Sidebar.jsx
+│   │   ├── Header.jsx
+│   │   └── Layout.jsx
+│   ├── dashboard/
+│   │   ├── StatsCard.jsx
+│   │   └── RecentActivity.jsx
+│   ├── posts/
+│   │   ├── blocks/
+|   │   ├── types/                 # Individual block  components
+|   │   │   ├── HeadingBlock.jsx
+|   │   │   ├── TextBlock.jsx
+|   │   │   ├── ImageBlock.jsx
+|   │   │   ├── QuoteBlock.jsx
+|   │   │   ├── VideoBlock.jsx
+|   │   │   ├── ButtonBlock.jsx      # Add this
+|   │   │   └── blockTypes.js        # Export all block types
+|   │   ├── toolbar/                 # Block toolbar components
+|   │   │   ├── Toolbar.jsx
+|   │   │   ├── InserterToolbar.jsx  # Add this
+|   │   │   └── BlockControls.jsx    # Add this
+|   │   ├── BlockButton.jsx          # Add block button
+|   │   ├── BlockModal.jsx           # Block inserter modal
+|   │   ├── BlockRenderer.jsx        # Main block renderer
+|   │   └── index.js                 # Export all block components
+|   ├── PostForm.jsx                 # Main form component
+|   ├── PostList.jsx                 # Post listing
+|   ├──  index.js                     # Export post components
+|   ├── blocks/
+|   |   └── index.js
+|   │   │   ├── blocks/
+|   │   ├── types/                    # Individual block components
+|   │   │   ├── HeadingBlock.jsx
+|   │   │   ├── TextBlock.jsx
+|   │   │   ├── ImageBlock.jsx
+|   │   │   ├── QuoteBlock.jsx
+|   │   │   ├── VideoBlock.jsx
+|   │   │   ├── ButtonBlock.jsx      # Add this
+|   │   │   └── blockTypes.js        # Export all block types
+|   │   ├── toolbar/                 # Block toolbar components
+|   │   │   ├── Toolbar.jsx
+|   │   │   ├── InserterToolbar.jsx  # Add this
+|   │   │   └── BlockControls.jsx    # Add this
+|   │   ├── BlockButton.jsx          # Add block button
+|   │   ├── BlockModal.jsx           # Block inserter modal
+|   │   ├── BlockRenderer.jsx        # Main block renderer
+|   │   └── index.js                 # Export all block components
+|   ├── PostForm.jsx                 # Main form component
+|   ├── PostList.jsx                 # Post listing
+|   ├──  index.js                     # Export post components
+|   ├── blocks/
+|   |   └── index.js
+|   │   │   ├── blocks/
+|   │   ├── types/                    # Individual block components
+|   │   │   ├── HeadingBlock.jsx
+|   │   │   ├── TextBlock.jsx
+|   │   │   ├── ImageBlock.jsx
+|   │   │   ├── QuoteBlock.jsx
+|   │   │   ├── VideoBlock.jsx
+|   │   │   ├── ButtonBlock.jsx      # Add this
+|   │   │   └── blockTypes.js        # Export all block types
+|   │   ├── toolbar/                 # Block toolbar components
+|   │   │   ├── Toolbar.jsx
+|   │   │   ├── InserterToolbar.jsx  # Add this
+|   │   │   └── BlockControls.jsx    # Add this
+|   │   ├── BlockButton.jsx          # Add block button
+|   │   ├── BlockModal.jsx           # Block inserter modal
+|   │   ├── BlockRenderer.jsx        # Main block renderer
+|   │   └── index.js                 # Export all block components
+|   ├── PostForm.jsx                 # Main form component
+|   ├── PostList.jsx                 # Post listing
+|   ├──  index.js                     # Export post components
+│   ├── pages/
+│   │   ├── PageList.jsx
+│   │   └── PageForm.jsx
+│   └── common/
+│       ├── LoadingSpinner.jsx
+│       └── Modal.jsx
+├── hooks/
+│   ├── useApi.js
+│   └── useAuth.js
+├── pages/
+│   ├── dashboard/
+│   │   └── Dashboard.jsx
+│   ├── posts/
+│   │   ├── PostsList.jsx      (show all posts)
+│   │   ├── PostCreate.jsx     (create new post)
+│   │   └── PostEdit.jsx       (edit existing post)
+│   ├── pages/
+│   │   ├── PagesList.jsx      (show all pages)
+│   │   ├── PageCreate.jsx     (create new page)
+│   │   └── PageEdit.jsx       (edit existing page)
+│   ├── media/
+│   │   ├── MediaList.jsx      (show all media)
+│   │   ├── MediaUpload.jsx    (upload new media)
+│   │   └── MediaEdit.jsx      (edit media metadata)
+│   ├── settings/
+│   │   └── Settings.jsx
+│   └── index.js               (barrel file for exports)
+├── services/
+│   ├── api.js
+│   └── auth.js
+├── styles/
+│   ├── main.css
+│   └── components/
+├── utils/
+│   └── helpers.js
+├── App.jsx
+└── main.jsx
